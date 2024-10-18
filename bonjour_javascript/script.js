@@ -1,3 +1,5 @@
-let firstName = "Beyoncé"
-let message = "Bonjour"+" "+ firstName+"!"
-console.log(message)
+function sayHello(firstName){
+    let message = "Bonjour"+" "+ firstName+"!"
+    console.log(message)
+}
+sayHello('Beyoncé')
