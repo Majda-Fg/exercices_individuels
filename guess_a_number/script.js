@@ -1,5 +1,22 @@
+//DEUXIEME VERSION
 function number(){
-    let givenNumber = prompt("rentrez un numéro")
-    console.log(givenNumber)
+    let givenNumber = Number(prompt("rentrez un numéro"))
+    return givenNumber}
+
+let givenNumber1 = number()
+
+function didIWin(givenNumber2){
+    if (givenNumber2 < 22) {
+        alert("Plus grand")
+    }
+    else if (givenNumber2 > 22) {
+        alert("Plus petit")
+    }
+    else{
+        alert("Bravo! Vous avez deviné le nombre")
+    }
+    return
 }
-number()
+didIWin(givenNumber1)
+
+function gamePlay(){}
