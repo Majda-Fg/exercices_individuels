@@ -23,3 +23,9 @@ INSERT INTO users (firstname, lastname, email) VALUES ('Ada', 'Lovelace', 'ada@t
 INSERT INTO users (firstname, lastname, email) VALUES ('Beatrice', 'Worsley', 'bea@test.fr');
 INSERT INTO users (firstname, lastname, email) VALUES ('Bella', 'Guerin', 'bella@test.fr');
 INSERT INTO users (firstname, lastname, email) VALUES ('Barbara', 'Chase', 'barbara@test.fr');
+
+SELECT * FROM users;
+SELECT * FROM users WHERE firstname='Ada';
+SELECT * FROM users WHERE firstname LIKE 'B%';
+SELECT count(*) FROM users WHERE firstname LIKE 'B%';
+SELECT firstname from users;
